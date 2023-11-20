@@ -15,7 +15,7 @@ export const devProjects = [
     name: "ROMANIA",
     description:
       "gedarata wela wadak balan idin / dewarak hithala balala yannata hithala ohela...",
-    technologies: ["kuliwada", "uru kotu", "wathuwada"],
+    technologies: ["AAAA", "BBBB", "CCCC"],
     github: "https://github.com/victorcodess/flixify",
     demo: "https://flixify.victorwilliams.me/",
     image: require(".//../../public/projects/Romania.png"),
@@ -26,7 +26,7 @@ export const devProjects = [
     name: "DUBAI (UAE)",
     description:
       "The visa is valid for staying in the country for 2 years as of the date of stamping on the passport. Multi-entry visa. Requirements.",
-    technologies: ["redi sedima", "pol kadima", "thanakola"],
+    technologies: ["DDDD", "EEEE", "EEEE"],
     github: "https://github.com/victorcodess/weather-forecast-website",
     demo: "https://sky-watch.vercel.app/",
     image: require(".//../../public/projects/UAE.png"),
@@ -45,13 +45,13 @@ export const devProjects = [
   },
   {
     id: 3,
-    name: "Link Shortener",
+    name: "Special Notifications",
     description:
-      "A website that reduces the length of your URL using Bit.ly's API",
-    technologies: ["JavaScript", "CSS", "Bit.ly's API"],
+      "SMT Notifications center",
+    technologies: ["ROMANIA"],
     github: "https://github.com/victorcodess/url-shortener",
     demo: "https://url-shortener-nine-delta.vercel.app",
-    image: require(".//../../public/projects/shortener-new.webp"),
+    image: require(".//../../public/projects/1.png"),
     available: true,
   },
   // {
