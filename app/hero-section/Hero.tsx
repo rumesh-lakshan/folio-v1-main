@@ -77,8 +77,8 @@ const Hero = () => {
           className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
         >
           <AnimatedWords
-            title="SMT"
-            style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
+            title="SMT Travels And Tours "
+            style= "flex max-w-[50px] flex-col items-start text-left text-[15px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[17px] md:text-[20px] lg:text-center lg:text-[27px] xl:text-[115px]"
           />
           <motion.div
             className="absolute bottom-[-110px] mx-auto sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
@@ -90,7 +90,7 @@ const Hero = () => {
               alt="SMT's headshot"
               data-blobity-tooltip="SMT Travels & Tours (Private) Limited"
               data-blobity-invert="false"
-              className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[20px] md:rounded-[32px] lg:w-[245px]"
+              className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[20px] md:rounded-[32px] lg:w-[480px]"
             />
           </motion.div>
         </div>

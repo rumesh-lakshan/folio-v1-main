@@ -6,7 +6,7 @@ import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
 import AnimatedWords2 from "../animations/AnimatedWords2";
 import { motion } from "framer-motion";
-import heartIcon from "../../public/heart icon.png";
+import heartIcon from "../../public/EDITLOGO2 (1).png";
 
 const Contact = () => {
   return (
