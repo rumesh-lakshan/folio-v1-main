@@ -11,35 +11,20 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Victor Williams — Frontend Engineer",
+  title: "SMT Travels & Tours (Private) Limited",
   description:
-    "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    "Only trustworthy overseas human resource provider in North Western Province.",
   generator: "Next.js",
-  applicationName: "Victor Williams",
+  applicationName: "SMT",
   keywords: [
-    "freelance",
-    "developer",
-    "freelance developer",
-    "frontend",
-    "react",
-    "frontend developer",
-    "frontend engineer",
-    "creative",
-    "creative developer",
-    "creative engineer",
-    "tech",
-    "nigeria",
-    "software",
-    "software developer",
-    "portfolio",
-    "frontend developer portfolio",
-    "creative developer portfolio",
+    "Travels",
+    "Tours", 
   ],
   colorScheme: "dark",
   openGraph: {
-    title: "Victor Williams — Frontend Engineer",
+    title: "SMT Travels & Tours (Private) Limited",
     description:
-      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+      "Only trustworthy overseas human resource provider in North Western Province.",
     url: "https://www.victorwilliams.me/",
     siteName: "www.victorwilliams.me",
     images: [
@@ -47,7 +32,7 @@ export const metadata: Metadata = {
         url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
         width: 1200,
         height: 630,
-        alt: "Victor Williams — Frontend Engineer",
+        alt: "SMT Travels & Tours (Private) Limited",
       },
     ],
     locale: "en-US",
@@ -55,9 +40,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Victor Williams — Frontend Engineer",
+    title: "SMT Travels & Tours (Private) Limited",
     description:
-      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+      "Only trustworthy overseas human resource provider in North Western Province.",
     creator: "victorwill__",
     creatorId: "1243720976552144897",
     images: [
@@ -77,7 +62,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  category: "technology",
+  category: "Travels & Tours",
 };
 
 type RootLayoutProps = {
