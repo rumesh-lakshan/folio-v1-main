@@ -113,7 +113,7 @@ const Contact = () => {
             <Link
               href="https://blog.victorwilliams.me/"
               target="_blank"
-              aria-label="View Hashnode Profile"
+              aria-label="View SMT Profile"
             >
               <AnimatedTitle
                 text={"HN"}

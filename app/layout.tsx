@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     title: "SMT Travels & Tours (Private) Limited",
     description:
       "Only trustworthy overseas human resource provider in North Western Province.",
-    url: "https://www.victorwilliams.me/",
-    siteName: "www.victorwilliams.me",
+    url: "https://www.royalrecruitmentandconsultants.com/",
+    siteName: "www.royalrecruitmentandconsultants.com",
     images: [
       {
         url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
