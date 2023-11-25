@@ -3,7 +3,6 @@ export type ProjectProps = {
   name: string;
   description: string;
   technologies: string[];
-  github: string;
   demo: string;
   image: string;
   available: boolean;
@@ -14,15 +13,8 @@ export const devProjects = [
     id: 0,
     name: "ROMANIA",
     description:
-      ["1.  HEAVY EQUIPMENT OPERATOR (EXCAVATOR, BULDOZER, FRONT LOUDER)",
-       "2.  HEAVY EQUIPMENT MECHANIC (EXCAVATOR, BULDOZER, FRONT LOUDER)",
-       "2.  HEAVY EQUIPMENT MECHANIC (EXCAVATOR, BULDOZER, FRONT LOUDER)",
-       "2.  HEAVY EQUIPMENT MECHANIC (EXCAVATOR, BULDOZER, FRONT LOUDER)",
-       "2.  HEAVY EQUIPMENT MECHANIC (EXCAVATOR, BULDOZER, FRONT LOUDER)",
-       "2.  HEAVY EQUIPMENT MECHANIC (EXCAVATOR, BULDOZER, FRONT LOUDER)",
-       "2.  HEAVY EQUIPMENT MECHANIC (EXCAVATOR, BULDOZER, FRONT LOUDER)"],
+    "The visa is valid for staying in the country for 2 years as of the date of stamping on the passport. Multi-entry visa. Requirements.",
     technologies: ["AAAA", "BBBB", "CCCC"],
-    github: "https://github.com/victorcodess/flixify",
     demo: "https://flixify.victorwilliams.me/",
     image: require(".//../../public/projects/Romania.png"),
     available: true,
@@ -33,7 +25,6 @@ export const devProjects = [
     description:
       "The visa is valid for staying in the country for 2 years as of the date of stamping on the passport. Multi-entry visa. Requirements.",
     technologies: ["DDDD", "EEEE", "EEEE"],
-    github: "https://github.com/victorcodess/weather-forecast-website",
     demo: "https://sky-watch.vercel.app/",
     image: require(".//../../public/projects/UAE.png"),
     available: true,
@@ -44,7 +35,6 @@ export const devProjects = [
     description:
       "The visa is valid for staying in the country for 2 years as of the date of stamping on the passport. Multi-entry visa. Requirements.",
     technologies: ["love", "sex", "work"],
-    github: "https://github.com/victorcodess/alpaca-image-generator",
     demo: "http://alpaca-image-generator-beta.vercel.app",
     image: require(".//../../public/projects/oman.png"),
     available: true,
@@ -55,7 +45,6 @@ export const devProjects = [
     description:
       "SMT Notifications center",
     technologies: ["ROMANIA"],
-    github: "https://github.com/victorcodess/url-shortener",
     demo: "https://url-shortener-nine-delta.vercel.app",
     image: require(".//../../public/projects/1.png"),
     available: true,

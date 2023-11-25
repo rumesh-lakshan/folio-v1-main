@@ -27,7 +27,7 @@ const Hero = () => {
               className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
-              VIEW Applcation
+              VIEW Application
             </motion.button>
           </Link>
         </div>
@@ -87,10 +87,10 @@ const Hero = () => {
             <Image
               src={profile}
               priority
-              alt="SMT's headshot"
+              alt="SMT's logo"
               data-blobity-tooltip="SMT Travels & Tours (Private) Limited"
               data-blobity-invert="false"
-              className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[20px] md:rounded-[32px] lg:w-[480px]"
+              className=" w-[150px] rounded-[16px] md:w-[20px] md:rounded-[32px] lg:w-[480px]"
             />
           </motion.div>
         </div>
@@ -107,14 +107,6 @@ const Hero = () => {
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
             Only trustworthy overseas human resource provider in North Western Province.
-            {/* <Link
-              href="https://crownbrandingagency.com/ "
-              target="_blank"
-              className="underline underline-offset-2 hover:no-underline"
-              aria-label="Crown Branding Agency Website"
-            >
-              Mono.
-            </Link> */}
           </p>
         </motion.div>
 
