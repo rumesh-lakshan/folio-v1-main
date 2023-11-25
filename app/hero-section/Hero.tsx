@@ -14,7 +14,7 @@ const Hero = () => {
       initial="initial"
       animate="animate"
     >
-      <motion.div className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#0E1016] mix-blend-color"></motion.div>
+      <motion.div className="absolute left-0 top-0 right-0 bottom-0 h-full w-full b"></motion.div>
 
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
@@ -78,20 +78,19 @@ const Hero = () => {
         >
           <AnimatedWords
             title="SMT Travels And Tours "
-            style= "flex max-w-[50px] flex-col items-start text-left text-[15px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[17px] md:text-[20px] lg:text-center lg:text-[27px] xl:text-[115px]"
-          />
+            style= "flex max-w-[50px] flex-col items-start text-left text-[15px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[17px] md:text-[20px] lg:text-center lg:text-[27px] xl:text-[115px]"          />
           <motion.div
             className="absolute bottom-[-110px] mx-auto sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
             variants={imageAnimation}
           >
-            <Image
+            {/* <Image
               src={profile}
               priority
               alt="SMT's logo"
               data-blobity-tooltip="SMT Travels & Tours (Private) Limited"
               data-blobity-invert="false"
               className=" w-[150px] rounded-[16px] md:w-[20px] md:rounded-[32px] lg:w-[480px]"
-            />
+            /> */}
           </motion.div>
         </div>
       </div>
