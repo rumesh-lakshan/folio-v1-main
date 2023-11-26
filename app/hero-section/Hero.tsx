@@ -21,7 +21,7 @@ const Hero = () => {
           <Link
             href="https://drive.google.com/file/d/1CB3jrLeAUQPxkO1DXyVSs-GFXMQrRSSs/view"
             target="_blank"
-            aria-label="View Applcation"
+            aria-label="View Application"
           >
             <motion.button
               className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
@@ -36,7 +36,7 @@ const Hero = () => {
           <Link
             href="https://web.facebook.com/profile.php?id=61550873387292"
             target="_blank"
-            aria-label="View GitHub Profile"
+            aria-label="View Facebook Page"
           >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
@@ -46,18 +46,18 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            href=""
             target="_blank"
-            aria-label="View Facebook Profile"
+            aria-label="View Whatsapp Profile"
           >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              LN
+              Whatsapp
             </motion.p>
           </Link>
-          <Link
+          {/* <Link
             href="https://twitter.com/victorwill__"
             target="_blank"
             aria-label="View Twitter Profile"
@@ -68,7 +68,7 @@ const Hero = () => {
             >
               TW
             </motion.p>
-          </Link>
+          </Link> */}
         </div>
       </div>
 
@@ -105,7 +105,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Only trustworthy overseas human resource provider in North Western Province.
+          
           </p>
         </motion.div>
 
@@ -114,8 +114,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-          It is not just a service we provide , it is a family trust that we build up. <br></br>
-          SERVICE- MAINTAINED- TRUST 
+          Only trustworthy overseas human resource provider in North Western Province, Sri Lanka.
           </p>
         </motion.div>
       </div>
