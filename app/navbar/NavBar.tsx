@@ -44,7 +44,7 @@ const NavBar = () => {
         </h4>
       </Link>
       <Link
-        href="#work"
+        href="#jobs"
         data-blobity-magnetic="false"
         onClick={handleScroll}
         aria-label="Scroll to Work Section"
