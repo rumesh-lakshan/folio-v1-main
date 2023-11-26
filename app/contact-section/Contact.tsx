@@ -28,7 +28,7 @@ const Contact = () => {
           />
           <Image
             src={heartIcon}
-            alt="Heart Icon"
+            alt="SMT Logo"
             className="heartbeat md:-bottom-18 absolute -bottom-5 left-64 w-[120px] sm:-bottom-14 sm:left-[40%] md:left-[40%] md:w-[150px] lg:-bottom-16 lg:left-[42%] lg:w-[230px]"
           />
         </div>
@@ -44,12 +44,12 @@ const Contact = () => {
               }
             />
             <Link
-              href="mailto:victor.williams@stu.cu.edu.ng?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
+              href="smttravelsandtours3118@gmai.com"
               target="_blank"
               aria-label="Send me an email"
               className="mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:w-[170px] lg:mt-4"
             >
-              <AnimatedBody text={"Send me an email"} className={""} />
+              <AnimatedBody text={"Send me an email"} className={"smttravelsandtours3118@gmail.com"} />
             </Link>
           </div>
 
@@ -68,7 +68,7 @@ const Contact = () => {
                 charSpace={"mr-[0.01em]"}
               />
             </Link>
-            <Link
+           {/* <Link
               href="https://www.linkedin.com/in/victor-williams-chukwudi/"
               target="_blank"
               aria-label="View LinkedIn Profile"
@@ -109,21 +109,21 @@ const Contact = () => {
                 wordSpace={"mr-[0.25em]"}
                 charSpace={"mr-[0.01em]"}
               />
-            </Link>
+            </Link> */}
             <Link
-              href="https://blog.victorwilliams.me/"
+              href="https://whatsapp.com"
               target="_blank"
-              aria-label="View SMT Profile"
+              aria-label="View SMT Whatsapp Businuss"
             >
               <AnimatedTitle
-                text={"HN"}
+                text={"Whatsapp"}
                 className={
                   "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
                 wordSpace={"mr-[0.25em]"}
                 charSpace={"mr-[0.01em]"}
               />
-            </Link>
+              </Link> 
           </div>
         </div>
       </div>
