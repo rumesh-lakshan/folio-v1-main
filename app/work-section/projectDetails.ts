@@ -1,7 +1,7 @@
 export type ProjectProps = {
   id: number;
   name: string;
-  description: string;
+  description: string[];
   technologies: string[];
   demo: string;
   image: string;
@@ -12,8 +12,11 @@ export const devProjects = [
   {
     id: 0,
     name: "ROMANIA",
-    description:
-    "The visa is valid for staying in the country for 2 years as of the date of stamping on the passport. Multi-entry visa. Requirements.",
+    description: [
+      "Apple",
+      "Android",
+      "Windows",
+    ],
     technologies: ["AAAA", "BBBB", "CCCC"],
     demo: "https://flixify.victorwilliams.me/",
     image: require(".//../../public/projects/Romania.png"),
@@ -22,8 +25,9 @@ export const devProjects = [
   {
     id: 1,
     name: "DUBAI (UAE)",
-    description:
+    description: [
       "The visa is valid for staying in the country for 2 years as of the date of stamping on the passport. Multi-entry visa. Requirements.",
+    ],
     technologies: ["DDDD", "EEEE", "EEEE"],
     demo: "https://sky-watch.vercel.app/",
     image: require(".//../../public/projects/UAE.png"),
@@ -32,8 +36,9 @@ export const devProjects = [
   {
     id: 2,
     name: "OMAN",
-    description:
+    description: [
       "The visa is valid for staying in the country for 2 years as of the date of stamping on the passport. Multi-entry visa. Requirements.",
+    ],
     technologies: ["love", "sex", "work"],
     demo: "http://alpaca-image-generator-beta.vercel.app",
     image: require(".//../../public/projects/oman.png"),
@@ -42,43 +47,23 @@ export const devProjects = [
   {
     id: 3,
     name: "Special Notifications",
-    description:
+    description: [
       "SMT Notifications center",
+    ],
     technologies: ["ROMANIA"],
     demo: "https://url-shortener-nine-delta.vercel.app",
     image: require(".//../../public/projects/1.png"),
     available: true,
   },
-  // {
-  //   id: 4,
-  //   name: "Carpooling Service",
-  //   description:
-  //     "TMTM helps Covenant University students find fellow students who are headed to the same location, so they can share a ride and split the cost.",
-  //   technologies: ["Material UI", "React", "Formik"],
-  //   github: "https://github.com/victorcodess/carpooling-service",
-  //   demo: "",
-  //   image: require(".//../../public/projects/carpool-new.webp"),
-  //   available: false,
-  // },
-  // {
-  //   id: 5,
-  //   name: "MLSC.ng",
-  //   description:
-  //     "This is platform for Microsoft Learn Student Ambassadors to shorten links, append their sharing IDs and generate event certificates.",
-  //   technologies: ["Next.js", "Next Auth", "Tailwind CSS"],
-  //   github: "https://github.com/msp-nigeria/mlsc.ng-frontend",
-  //   demo: "",
-  //   image: require(".//../../public/projects/mlsc.png"),
-  //   available: false,
-  // },
 ];
 
 export const designProjects = [
   {
     id: 1,
     name: "Hebron Statup Lab Website",
-    description:
+    description: [
       "SkyWatch is a convenient and user-friendly tool that allows you to quickly and easily check the current.",
+    ],
     technologies: ["UX Research", "UI Design", "Prototyping"],
     github: "",
     demo: "",
@@ -88,8 +73,9 @@ export const designProjects = [
   {
     id: 2,
     name: "RAGS Scrubs Website",
-    description:
+    description: [
       "An image generator website that allows users to generate, combine, and download images.",
+    ],
     technologies: ["UX Research", "UI Design", "Prototyping"],
     github: "",
     demo: "",
@@ -99,8 +85,9 @@ export const designProjects = [
   {
     id: 3,
     name: "Crown Branding Agency Website",
-    description:
+    description: [
       "A website that reduces the length of your URL using Bit.ly's API",
+    ],
     technologies: ["UX Research", "UI Design", "Prototyping"],
     github: "",
     demo: "",
@@ -111,8 +98,9 @@ export const designProjects = [
   {
     id: 4,
     name: "Titi Mobile App",
-    description:
+    description: [
       "TMTM helps you find people who are headed to the same location as you, so you can share a ride and split the cost with them.",
+    ],
     technologies: ["UX Research", "UI Design", "Prototyping"],
     github: "",
     demo: "",
