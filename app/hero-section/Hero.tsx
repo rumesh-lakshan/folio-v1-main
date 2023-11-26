@@ -46,7 +46,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href=""
+            href="https://wa.me/message/2IWWSFHGUCTPO1"
             target="_blank"
             aria-label="View Whatsapp Profile"
           >
@@ -83,14 +83,14 @@ const Hero = () => {
             className="absolute bottom-[-110px] mx-auto sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
             variants={imageAnimation}
           >
-            {/* <Image
+            {<Image
               src={profile}
               priority
               alt="SMT's logo"
               data-blobity-tooltip="SMT Travels & Tours (Private) Limited"
               data-blobity-invert="false"
-              className=" w-[150px] rounded-[16px] md:w-[20px] md:rounded-[32px] lg:w-[480px]"
-            /> */}
+              className=" w-[120px] rounded-[16px] md:w-[20px] md:rounded-[32px] lg:w-[480px]"
+            /> }
           </motion.div>
         </div>
       </div>
