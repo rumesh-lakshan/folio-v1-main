@@ -1,8 +1,11 @@
 {
+  "homepage": "https://Pasindu0707.github.io/SMT",
   "name": "folio-v1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d .next",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -34,6 +37,7 @@
     "@types/node": "18.15.0",
     "@types/react": "18.0.28",
     "autoprefixer": "^10.4.13",
+    "gh-pages": "^6.1.0",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
     "prettier-plugin-tailwindcss": "^0.2.5",
