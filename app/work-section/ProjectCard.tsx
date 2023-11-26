@@ -75,13 +75,13 @@ const ProjectCard = ({
         <AnimatedTitle
           text={name}
           className={
-            "max-w-[90%] text-[40px] leading-none text-white md:text-[44px] md:leading-none lg:max-w-[450px] lg:text-[48px] lg:leading-none mt-[-80px]"
+            "max-w-[90%] text-[40px] leading-none text-white md:text-[44px] md:leading-none lg:max-w-[450px] lg:text-[48px] lg:leading-none mt-[-100px]"
           }
           wordSpace={"mr-[0.25em]"}
           charSpace={"-mr-[0.01em]"}
         />
         
-        <div className="mt-9 flex flex-col gap-[-2]" style={{ maxHeight: '200px', overflowY: 'scroll' }}>
+        <div className="mt-6 flex flex-col gap-[-2]" style={{ maxHeight: '180px', overflowY: 'scroll' }}>
           <style jsx>{`
             ::-webkit-scrollbar {
               width: 12px;
@@ -111,7 +111,7 @@ const ProjectCard = ({
           ))}
         </div>
 
-        <div className="mt-9 flex gap-4">
+        <div className="mt-6 flex gap-4">
           {technologies.map((tech, id) => (
             <AnimatedTitle
               text={tech}
