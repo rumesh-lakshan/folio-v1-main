@@ -28,7 +28,7 @@ const Contact = () => {
           />
           <Image
             src={heartIcon}
-            alt="SMT Logo"
+            alt="Heart Icon"
             className="heartbeat md:-bottom-18 absolute -bottom-5 left-64 w-[120px] sm:-bottom-14 sm:left-[40%] md:left-[40%] md:w-[150px] lg:-bottom-16 lg:left-[42%] lg:w-[230px]"
           />
         </div>
@@ -68,13 +68,13 @@ const Contact = () => {
                 charSpace={"mr-[0.01em]"}
               />
             </Link>
-           {/* <Link
-              href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            <Link
+              href="https://wa.me/message/2IWWSFHGUCTPO1"
               target="_blank"
-              aria-label="View LinkedIn Profile"
+              aria-label="View Whatsapp Contact"
             >
               <AnimatedTitle
-                text={"LN"}
+                text={"WhatsApp"}
                 className={
                   "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
@@ -82,7 +82,7 @@ const Contact = () => {
                 charSpace={"mr-[0.01em]"}
               />
             </Link>
-            <Link
+            {/* <Link
               href="https://twitter.com/victorwill__"
               target="_blank"
               aria-label="View Twitter Profile"
@@ -109,21 +109,21 @@ const Contact = () => {
                 wordSpace={"mr-[0.25em]"}
                 charSpace={"mr-[0.01em]"}
               />
-            </Link> */}
+            </Link>
             <Link
-              href="https://whatsapp.com"
+              href="https://blog.victorwilliams.me/"
               target="_blank"
-              aria-label="View SMT Whatsapp Businuss"
+              aria-label="View SMT Profile"
             >
               <AnimatedTitle
-                text={"Whatsapp"}
+                text={"HN"}
                 className={
                   "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
                 wordSpace={"mr-[0.25em]"}
                 charSpace={"mr-[0.01em]"}
               />
-              </Link> 
+            </Link> */}
           </div>
         </div>
       </div>
@@ -132,3 +132,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
