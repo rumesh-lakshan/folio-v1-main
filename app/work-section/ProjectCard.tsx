@@ -18,15 +18,13 @@ const ProjectCard = ({
 }: ProjectProps) => {
   return (
     <motion.div
-      style={
-        {
-          backgroundColor: "#212531",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center center",
-          position: "relative",
-        } as React.CSSProperties
-      }
+      style={{
+        backgroundColor: "#212531",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center center",
+        position: "relative",
+      }}
       className={`relative z-10 h-[550px]  w-full items-stretch justify-center overflow-hidden rounded-3xl bg-center py-0 sm:h-[700px] sm:w-[100%] md:h-[650px] md:w-[100%] lg:h-[500px]`}
       initial="initial"
       animate="animate"
@@ -45,7 +43,6 @@ const ProjectCard = ({
       >
         {available ? (
           <>
-            
             <Link href={demo} target="_blank" aria-label="Open Live Demo">
               <FontAwesomeIcon
                 icon={faLink}
@@ -60,7 +57,6 @@ const ProjectCard = ({
           </>
         ) : (
           <div className=" flex items-center justify-center gap-4">
-            
             <div className=" rounded-xl bg-white px-4 py-2 md:px-5 md:py-3 lg:px-6 lg:py-4">
               <h3 className="text-[16px] md:text-[18px] lg:text-[20px] ">
                 Coming soon
@@ -84,30 +80,34 @@ const ProjectCard = ({
           wordSpace={"mr-[0.25em]"}
           charSpace={"-mr-[0.01em]"}
         />
-        {/* <AnimatedBody
-          text={description}
-          className={
-            "mt-4 w-[90%] max-w-[457px] text-[16px] font-semibold text-[#95979D] "
-          }
-        /> */}
-        <div className="mt-9 flex flex-col gap-2">
+        
+        <div className="mt-9 flex flex-col gap-[-2]" style={{ maxHeight: '200px', overflowY: 'scroll' }}>
+          <style jsx>{`
+            ::-webkit-scrollbar {
+              width: 12px;
+            }
+            ::-webkit-scrollbar-thumb {
+              background-color: #000000; 
+              border-radius: 20px;
+            }
+            ::-webkit-scrollbar-track {
+              background-color: #FFFFFF;
+              border-radius: 20px; 
+            }
+          `}</style>
           {description.map((item, id) => (
             <div key={id} className="flex items-center">
-            <style jsx>{`
-              .items-center {
-                align-items: baseline;
-              }
-            `}</style>  <span className="mr-2 align-baseline">&#8226;</span>
-            <AnimatedTitle
-              text={item}
-              wordSpace={"mr-[0.25em]"}
-              charSpace={"mr-[0.01em]"}
-              key={id}
-              className={
-                "mt-4 w-[90%] max-w-[457px] text-[14px] font-bold md:text-[16px] text-[#95979D] lg:text-[18px]"
-              }
-            />
-          </div>
+              <span className="mr-2 align-baseline">&#8226;</span>
+              <AnimatedBody
+                text={item}
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+                key={id}
+                className={
+                  "mt-1 w-[90%] max-w-[457px] text-[14px] font-bold md:text-[16px] text-[#95979D] lg:text-[18px]"
+                }
+              />
+            </div>
           ))}
         </div>
 
