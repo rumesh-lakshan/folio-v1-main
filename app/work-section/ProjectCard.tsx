@@ -79,17 +79,38 @@ const ProjectCard = ({
         <AnimatedTitle
           text={name}
           className={
-            "max-w-[90%] text-[40px] leading-none text-white md:text-[44px] md:leading-none lg:max-w-[450px] lg:text-[48px] lg:leading-none"
+            "max-w-[90%] text-[40px] leading-none text-white md:text-[44px] md:leading-none lg:max-w-[450px] lg:text-[48px] lg:leading-none mt-[-80px]"
           }
           wordSpace={"mr-[0.25em]"}
           charSpace={"-mr-[0.01em]"}
         />
-        <AnimatedBody
+        {/* <AnimatedBody
           text={description}
           className={
             "mt-4 w-[90%] max-w-[457px] text-[16px] font-semibold text-[#95979D] "
           }
-        />
+        /> */}
+        <div className="mt-9 flex flex-col gap-2">
+          {description.map((item, id) => (
+            <div key={id} className="flex items-center">
+            <style jsx>{`
+              .items-center {
+                align-items: baseline;
+              }
+            `}</style>  <span className="mr-2 align-baseline">&#8226;</span>
+            <AnimatedTitle
+              text={item}
+              wordSpace={"mr-[0.25em]"}
+              charSpace={"mr-[0.01em]"}
+              key={id}
+              className={
+                "mt-4 w-[90%] max-w-[457px] text-[14px] font-bold md:text-[16px] text-[#95979D] lg:text-[18px]"
+              }
+            />
+          </div>
+          ))}
+        </div>
+
         <div className="mt-9 flex gap-4">
           {technologies.map((tech, id) => (
             <AnimatedTitle
