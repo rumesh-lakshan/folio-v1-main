@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "www.royalrecruitmentandconsultants.com",
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+        url: "https://web.facebook.com/photo/?fbid=122136259268029112&set=a.122135532422029112",
         width: 1200,
         height: 630,
         alt: "SMT Travels & Tours (Private) Limited",
@@ -43,10 +43,10 @@ export const metadata: Metadata = {
     title: "SMT Travels & Tours (Private) Limited",
     description:
       "Only trustworthy overseas human resource provider in North Western Province.",
-    creator: "victorwill__",
+    creator: "SMT",
     creatorId: "1243720976552144897",
     images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+      "https://web.facebook.com/photo/?fbid=122136259268029112&set=a.122135532422029112",
     ],
   },
   robots: {
